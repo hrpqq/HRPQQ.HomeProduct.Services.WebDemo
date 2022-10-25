@@ -224,17 +224,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hrpqq\\.nuget\\packages\\": {}
+    "C:\\Users\\hrpqq\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hrpqq\\Desktop\\DotNetProjects\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj",
+      "projectUniqueName": "D:\\net6_prjs\\hehe\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj",
       "projectName": "HRPQQ.HomeProduct.Services.WebDemo",
-      "projectPath": "C:\\Users\\hrpqq\\Desktop\\DotNetProjects\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj",
+      "projectPath": "D:\\net6_prjs\\hehe\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj",
       "packagesPath": "C:\\Users\\hrpqq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hrpqq\\Desktop\\DotNetProjects\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\obj\\",
+      "outputPath": "D:\\net6_prjs\\hehe\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\hrpqq\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -244,6 +248,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\vcpkg\\vcpkg-master\\vcpkg-master\\scripts\\buildsystems": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
