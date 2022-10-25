@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HRPQQ.HomeProduct.Services.WebDemo.DI\HRPQQ.HomeProduct.Services.WebDemo.DI.csproj" />
+    <ProjectReference Include="..\HRPQQ.HomeProduct.Services.WebDemo.RBMQ\HRPQQ.HomeProduct.Services.WebDemo.RBMQ.csproj" />
+  </ItemGroup>
+
 </Project>

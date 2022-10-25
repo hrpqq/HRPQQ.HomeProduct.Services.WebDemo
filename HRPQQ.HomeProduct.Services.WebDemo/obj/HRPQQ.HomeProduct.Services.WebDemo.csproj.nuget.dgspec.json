@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\net6_prjs\\hehe\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj": {}
+    "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj": {}
   },
   "projects": {
-    "D:\\net6_prjs\\hehe\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj": {
+    "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.DI\\HRPQQ.HomeProduct.Services.WebDemo.DI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\net6_prjs\\hehe\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj",
-        "projectName": "HRPQQ.HomeProduct.Services.WebDemo",
-        "projectPath": "D:\\net6_prjs\\hehe\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj",
+        "projectUniqueName": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.DI\\HRPQQ.HomeProduct.Services.WebDemo.DI.csproj",
+        "projectName": "HRPQQ.HomeProduct.Services.WebDemo.DI",
+        "projectPath": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.DI\\HRPQQ.HomeProduct.Services.WebDemo.DI.csproj",
         "packagesPath": "C:\\Users\\hrpqq\\.nuget\\packages\\",
-        "outputPath": "D:\\net6_prjs\\hehe\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\obj\\",
+        "outputPath": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.DI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,6 +32,137 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ.csproj",
+        "projectName": "HRPQQ.HomeProduct.Services.WebDemo.RBMQ",
+        "projectPath": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ.csproj",
+        "packagesPath": "C:\\Users\\hrpqq\\.nuget\\packages\\",
+        "outputPath": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hrpqq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\vcpkg\\vcpkg-master\\vcpkg-master\\scripts\\buildsystems": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj",
+        "projectName": "HRPQQ.HomeProduct.Services.WebDemo",
+        "projectPath": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.csproj",
+        "packagesPath": "C:\\Users\\hrpqq\\.nuget\\packages\\",
+        "outputPath": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hrpqq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\vcpkg\\vcpkg-master\\vcpkg-master\\scripts\\buildsystems": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.DI\\HRPQQ.HomeProduct.Services.WebDemo.DI.csproj": {
+                "projectPath": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.DI\\HRPQQ.HomeProduct.Services.WebDemo.DI.csproj"
+              },
+              "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ.csproj": {
+                "projectPath": "D:\\net6_prjs\\HRPQQ.HomeProduct.Services.WebDemo\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ\\HRPQQ.HomeProduct.Services.WebDemo.RBMQ.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
